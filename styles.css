@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header-title {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
+div.header-links > a { /*Not working*/
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.section1-title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.section2 {
+    background-color: white;
+    color: #1F2937;
+    padding: 32px;
+    padding-top: 0;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+div.card > img, .card{
+    max-width: 200px;
+    display: block;
+    margin: auto;  
+}
+
+.card {
+    max-width: 280px;
+    text-align: center;
+}
+
+.full-quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 24px;
+}
+
+.author {
+    align-items: center;
+}
+
+
+
+
