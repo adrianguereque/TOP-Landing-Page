@@ -2,6 +2,10 @@ p {
     margin: 0;
     padding: 0;
 }
+
+button {
+    cursor: pointer;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -51,7 +55,7 @@ ul {
     gap: 32px;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 60px 0;
 }
 
 .text {
@@ -119,11 +123,31 @@ div.card > img, .card{
 
 .ad {
     background-color: #3882F6;
-    margin: 20px 200px;
+    margin: 80px 200px;
     padding: 30px 90px;
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
 }
+
+.ad-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ad-button {
+    padding: 8px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 24px;
+}
+
+
 
 
 
